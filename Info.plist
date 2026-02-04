@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleGetInfoString</key>
+	<dict/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UILaunchScreen</key>
+	<dict/>
+    <key>NSRemindersUsageDescription</key>
+    <string>We need access to your reminders to manage your tasks.</string>
+    <key>NSCalendarsFullAccessUsageDescription</key>
+    <string>We need full access to your calendar to schedule events.</string>
+    <key>NSCalendarsUsageDescription</key>
+    <string>We need access to your calendar to schedule events.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>We need access to your photos to parse schedules from images.</string>
+</dict>
+</plist>
