@@ -34,6 +34,11 @@ struct ContentView: View {
                 Label("Journal", systemImage: "book.closed")
             }
 
+            PomodoroView()
+                .tabItem {
+                    Label("Timer", systemImage: "timer")
+                }
+
             SettingsView(settingsManager: settingsManager, calendarManager: calendarManager)
                 .tabItem {
                     Image(systemName: "gear")
